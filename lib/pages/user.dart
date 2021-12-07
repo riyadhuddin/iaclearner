@@ -27,7 +27,7 @@ class _UserPageState extends State<UserPage> {
           onPressed: (){Navigator.pop(context);}),
           centerTitle: true,
           title: Text('${widget.user!.username}'),
-         
+         ///
       );
     }
   }
